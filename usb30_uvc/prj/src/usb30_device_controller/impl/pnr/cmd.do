@@ -1,0 +1,19 @@
+-d E:\WORK\usb30_device_controller\prj\src\usb30_device_controller\impl\gwsynthesis\prj.vg
+-p GW5AST-138B-FCPBGA676A-1
+-pn GW5AST-LV138FPG676AES
+-cst E:\WORK\usb30_device_controller\prj\src\top.cst
+-cfg E:\WORK\usb30_device_controller\prj\src\usb30_device_controller\impl\pnr\device.cfg
+-sdc E:\WORK\usb30_device_controller\prj\src\top.sdc
+-bit
+-tr
+-ph
+-timing
+-ireg_not_in_iob
+-oreg_not_in_iob
+-ioreg_not_in_iob
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-enable_dsrm 0
+-csr E:/WORK/usb30_device_controller/prj/src/serdes/serdes.csr

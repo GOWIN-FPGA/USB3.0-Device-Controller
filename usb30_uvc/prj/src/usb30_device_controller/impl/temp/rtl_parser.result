@@ -1,0 +1,510 @@
+[
+ {
+  "InstFile" : "E:/WORK/usb30_device_controller/prj/src/serdes/customized_phy/customized_phy.v",
+  "InstLine" : 10,
+  "InstName" : "Customized_PHY_Top",
+  "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/serdes/customized_phy/customized_phy.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Customized_PHY_Top"
+ },
+ {
+  "InstFile" : "E:/WORK/usb30_device_controller/prj/src/top.v",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/WORK/usb30_device_controller/prj/src/top.v",
+    "InstLine" : 415,
+    "InstName" : "Inst_SerDes_Top",
+    "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/serdes/serdes.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "SerDes_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/WORK/usb30_device_controller/prj/src/serdes/serdes.v",
+      "InstLine" : 578,
+      "InstName" : "Inst_upar_arbiter",
+      "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/upar_arbiter_wrap.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~upar_arbiter_wrap.SerDes_Top"
+     },
+     {
+      "InstFile" : "E:/WORK/usb30_device_controller/prj/src/serdes/serdes.v",
+      "InstLine" : 602,
+      "InstName" : "Inst_usb3_0_phy_top",
+      "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy_top.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "USB3_0_PHY_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy_top.v",
+        "InstLine" : 74,
+        "InstName" : "Inst_usb3_0_phy",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~usb3_0_phy.USB3_0_PHY_Top",
+        "SubInsts" : [
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "InstLine" : 234,
+          "InstName" : "Inst_usb_pipe_interface",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "ModuleLine" : 431,
+          "ModuleName" : "~usb_pipe_interface.USB3_0_PHY_Top"
+         },
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "InstLine" : 281,
+          "InstName" : "Inst_upar_csr",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "ModuleLine" : 1140,
+          "ModuleName" : "~upar_csr.USB3_0_PHY_Top"
+         },
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "InstLine" : 339,
+          "InstName" : "Inst_x4_decoder_8b10b",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "ModuleLine" : 1678,
+          "ModuleName" : "~x4_decoder_8b10b.USB3_0_PHY_Top",
+          "SubInsts" : [
+           {
+            "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "InstLine" : 1697,
+            "InstName" : "dec3",
+            "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "ModuleLine" : 1804,
+            "ModuleName" : "~decoder_8b10b.USB3_0_PHY_Top"
+           },
+           {
+            "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "InstLine" : 1717,
+            "InstName" : "dec2",
+            "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "ModuleLine" : 1804,
+            "ModuleName" : "~decoder_8b10b.USB3_0_PHY_Top"
+           },
+           {
+            "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "InstLine" : 1737,
+            "InstName" : "dec1",
+            "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "ModuleLine" : 1804,
+            "ModuleName" : "~decoder_8b10b.USB3_0_PHY_Top"
+           },
+           {
+            "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "InstLine" : 1757,
+            "InstName" : "dec0",
+            "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "ModuleLine" : 1804,
+            "ModuleName" : "~decoder_8b10b.USB3_0_PHY_Top"
+           }
+          ]
+         },
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "InstLine" : 358,
+          "InstName" : "Inst_x4_encoder_8b10b",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "ModuleLine" : 2134,
+          "ModuleName" : "~x4_encoder_8b10b.USB3_0_PHY_Top",
+          "SubInsts" : [
+           {
+            "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "InstLine" : 2154,
+            "InstName" : "enc3",
+            "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "ModuleLine" : 2252,
+            "ModuleName" : "~encoder_8b10b.USB3_0_PHY_Top"
+           },
+           {
+            "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "InstLine" : 2172,
+            "InstName" : "enc2",
+            "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "ModuleLine" : 2252,
+            "ModuleName" : "~encoder_8b10b.USB3_0_PHY_Top"
+           },
+           {
+            "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "InstLine" : 2190,
+            "InstName" : "enc1",
+            "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "ModuleLine" : 2252,
+            "ModuleName" : "~encoder_8b10b.USB3_0_PHY_Top"
+           },
+           {
+            "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "InstLine" : 2208,
+            "InstName" : "enc0",
+            "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+            "ModuleLine" : 2252,
+            "ModuleName" : "~encoder_8b10b.USB3_0_PHY_Top"
+           }
+          ]
+         },
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "InstLine" : 374,
+          "InstName" : "Inst_usb3_lfps_detector",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "ModuleLine" : 2379,
+          "ModuleName" : "~usb3_lfps_detector.USB3_0_PHY_Top"
+         },
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "InstLine" : 412,
+          "InstName" : "Inst_word_alignment",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+          "ModuleLine" : 2911,
+          "ModuleName" : "~word_alignment.USB3_0_PHY_Top"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/WORK/usb30_device_controller/prj/src/top.v",
+    "InstLine" : 446,
+    "InstName" : "usb30_device_controller_top_inst",
+    "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "usb30_device_controller_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v",
+      "InstLine" : 494,
+      "InstName" : "iu3p",
+      "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_pipe.v",
+      "ModuleLine" : 11,
+      "ModuleName" : "usb3_pipe",
+      "SubInsts" : [
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_pipe.v",
+        "InstLine" : 922,
+        "InstName" : "iu3rds",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_descramble.v",
+        "ModuleLine" : 11,
+        "ModuleName" : "usb3_descramble",
+        "SubInsts" : [
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_descramble.v",
+          "InstLine" : 313,
+          "InstName" : "iu3srx",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_lfsr.v",
+          "ModuleLine" : 16,
+          "ModuleName" : "usb3_lfsr"
+         }
+        ]
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_pipe.v",
+        "InstLine" : 947,
+        "InstName" : "iu3ss",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_scramble.v",
+        "ModuleLine" : 11,
+        "ModuleName" : "usb3_scramble",
+        "SubInsts" : [
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_scramble.v",
+          "InstLine" : 179,
+          "InstName" : "iu3srx",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_lfsr.v",
+          "ModuleLine" : 16,
+          "ModuleName" : "usb3_lfsr"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v",
+      "InstLine" : 574,
+      "InstName" : "iu3lt",
+      "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ltssm_device.v",
+      "ModuleLine" : 11,
+      "ModuleName" : "usb3_ltssm_device"
+     },
+     {
+      "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v",
+      "InstLine" : 639,
+      "InstName" : "iu3l",
+      "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "usb3_link",
+      "SubInsts" : [
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 638,
+        "InstName" : "usb3_TXLgood_cache",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "usb3_TXLcmd"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 654,
+        "InstName" : "usb3_TXLcrd_cache",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "usb3_TXLcmd"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 670,
+        "InstName" : "usb3_TXLup_cache",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "usb3_TXLcmd"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 684,
+        "InstName" : "usb3_TXLau_cache",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "usb3_TXLcmd"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1117,
+        "InstName" : "iu3ccw5",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 21,
+        "ModuleName" : "usb3_crc_cw"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1122,
+        "InstName" : "iu3ccw4",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 21,
+        "ModuleName" : "usb3_crc_cw"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1127,
+        "InstName" : "iu3chptx",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 47,
+        "ModuleName" : "usb3_crc_hp"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1139,
+        "InstName" : "iu3cdptx32",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 175,
+        "ModuleName" : "usb3_crc_dpp32_tx"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1148,
+        "InstName" : "iu3cdptx24",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 246,
+        "ModuleName" : "usb3_crc_dpp24"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1155,
+        "InstName" : "iu3cdptx16",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 303,
+        "ModuleName" : "usb3_crc_dpp16"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1162,
+        "InstName" : "iu3cdptx8",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 358,
+        "ModuleName" : "usb3_crc_dpp8"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1476,
+        "InstName" : "iu3chprx",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 47,
+        "ModuleName" : "usb3_crc_hp"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1484,
+        "InstName" : "iu3ccw3",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 21,
+        "ModuleName" : "usb3_crc_cw"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1489,
+        "InstName" : "iu3cdprx32",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 99,
+        "ModuleName" : "usb3_crc_dpp32_rx"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1499,
+        "InstName" : "iu3cdprx24",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 246,
+        "ModuleName" : "usb3_crc_dpp24"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1507,
+        "InstName" : "iu3cdprx16",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 303,
+        "ModuleName" : "usb3_crc_dpp16"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1514,
+        "InstName" : "iu3cdprx8",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 358,
+        "ModuleName" : "usb3_crc_dpp8"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1799,
+        "InstName" : "iu3ccw1",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 21,
+        "ModuleName" : "usb3_crc_cw"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v",
+        "InstLine" : 1804,
+        "InstName" : "iu3ccw2",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_crc.v",
+        "ModuleLine" : 21,
+        "ModuleName" : "usb3_crc_cw"
+       }
+      ]
+     },
+     {
+      "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v",
+      "InstLine" : 762,
+      "InstName" : "iu3r",
+      "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_protocol.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "usb3_protocol",
+      "SubInsts" : [
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_protocol.v",
+        "InstLine" : 1352,
+        "InstName" : "iu3ep0",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep0.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "usb3_ep0",
+        "SubInsts" : [
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep0.v",
+          "InstLine" : 171,
+          "InstName" : "iu3ep0i",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep0in_ram.v",
+          "ModuleLine" : 4,
+          "ModuleName" : "usb3_ep0in_ram"
+         },
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep0.v",
+          "InstLine" : 180,
+          "InstName" : "usb3_ep0_OUT",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "usb3_ep"
+         },
+         {
+          "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep0.v",
+          "InstLine" : 392,
+          "InstName" : "usb3_ep0_IN",
+          "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "usb3_ep"
+         }
+        ]
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_protocol.v",
+        "InstLine" : 1412,
+        "InstName" : "usb3_ep1_IN",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "usb3_ep"
+       },
+       {
+        "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_protocol.v",
+        "InstLine" : 1433,
+        "InstName" : "usb3_ep1_OUT",
+        "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "usb3_ep"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/WORK/usb30_device_controller/prj/src/top.v",
+    "InstLine" : 745,
+    "InstName" : "UserLayer_top_inst",
+    "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_user_layer/UserLayer_top.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "UserLayer_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 277,
+      "InstName" : "ControlTransfer_inst",
+      "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_user_layer/ControlTransfer.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "ControlTransfer"
+     },
+     {
+      "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 307,
+      "InstName" : "Ep1Loopback",
+      "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb30_user_layer/DataTransfer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "DataTransfer"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+  "InstLine" : 1558,
+  "InstName" : "~gtr12_upar.USB3_0_PHY_Top",
+  "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+  "ModuleLine" : 1558,
+  "ModuleName" : "~gtr12_upar.USB3_0_PHY_Top"
+ },
+ {
+  "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+  "InstLine" : 2835,
+  "InstName" : "elastic_buffer",
+  "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+  "ModuleLine" : 2835,
+  "ModuleName" : "elastic_buffer"
+ },
+ {
+  "InstFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+  "InstLine" : 3131,
+  "InstName" : "~pulse_detect.USB3_0_PHY_Top",
+  "ModuleFile" : "E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v",
+  "ModuleLine" : 3131,
+  "ModuleName" : "~pulse_detect.USB3_0_PHY_Top"
+ }
+]

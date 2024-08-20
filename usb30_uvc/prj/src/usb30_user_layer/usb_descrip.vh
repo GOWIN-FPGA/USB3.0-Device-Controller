@@ -1,0 +1,16 @@
+parameter	DESCR_USB3_ROM_ADD_W	= 'd10;
+parameter	[9:0]	DESCR_USB3_DEVICE	= 'd0;
+parameter	[9:0]	DESCR_USB3_DEVICE_LEN = 'd18;
+parameter	[9:0]	DESCR_USB3_CONFIG	= 'd5;
+parameter	[9:0]	DESCR_USB3_CONFIG_LEN = 'd177;
+parameter	[9:0]	DESCR_USB3_BOS	= 'd50;
+parameter	[9:0]	DESCR_USB3_BOS_LEN = 'd22;
+parameter	[9:0]	DESCR_USB3_STR0	= 'd56;
+parameter	[9:0]	DESCR_USB3_STR0_LEN = 'd4;
+parameter	[9:0]	DESCR_USB3_STR1	= 'd57;
+parameter	[9:0]	DESCR_USB3_STR1_LEN = 'd12;
+parameter	[9:0]	DESCR_USB3_STR2	= 'd60;
+parameter	[9:0]	DESCR_USB3_STR2_LEN = 'd8;
+parameter	[9:0]	DESCR_USB3_MSFT	= 'd62;
+parameter	[9:0]	DESCR_USB3_MSFT_LEN = 'd18;
+parameter	DESCR_USB3_LEN = 'd1024 ;

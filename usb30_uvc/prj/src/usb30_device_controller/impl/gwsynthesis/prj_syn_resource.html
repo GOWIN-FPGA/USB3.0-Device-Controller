@@ -1,0 +1,476 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Hierarchy Module Resource</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 14px; }
+div#main_wrapper{ width: 100%; }
+h1 {text-align: center; }
+h1 {margin-top: 36px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { align = "center"; padding: 5px 2px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table td.label { width: 20%; white-space: nowrap; min-width: 20px; background-color: #dee8f4; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="content">
+<h1>Hierarchy Module Resource</h1>
+<table>
+<tr>
+<th class="label">MODULE NAME</th>
+<th class="label">REG NUMBER</th>
+<th class="label">ALU NUMBER</th>
+<th class="label">LUT NUMBER</th>
+<th class="label">DSP NUMBER</th>
+<th class="label">BSRAM NUMBER</th>
+<th class="label">SSRAM NUMBER</th>
+<th class="label">ROM16 NUMBER</th>
+</tr>
+<tr>
+<td class="label">top (E:/WORK/usb30_device_controller/prj/src/top.v)</td>
+<td align = "center">82</td>
+<td align = "center">69</td>
+<td align = "center">28</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--Inst_SerDes_Top
+ (E:/WORK/usb30_device_controller/prj/src/top.v)</td>
+<td align = "center">220</td>
+<td align = "center">-</td>
+<td align = "center">162</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Inst_usb3_0_phy_top
+ (E:/WORK/usb30_device_controller/prj/src/serdes/serdes.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Inst_usb3_0_phy
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy_top.v)</td>
+<td align = "center">90</td>
+<td align = "center">-</td>
+<td align = "center">85</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Inst_usb_pipe_interface
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">156</td>
+<td align = "center">7</td>
+<td align = "center">252</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Inst_upar_csr
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">46</td>
+<td align = "center">-</td>
+<td align = "center">72</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Inst_x4_decoder_8b10b
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--dec3
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">77</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--dec2
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">71</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--dec1
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">11</td>
+<td align = "center">-</td>
+<td align = "center">62</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--dec0
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">11</td>
+<td align = "center">-</td>
+<td align = "center">89</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Inst_x4_encoder_8b10b
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--enc3
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">11</td>
+<td align = "center">-</td>
+<td align = "center">57</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--enc2
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">35</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--enc1
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--enc0
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Inst_usb3_lfps_detector
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">110</td>
+<td align = "center">-</td>
+<td align = "center">176</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Inst_word_alignment
+ (E:/WORK/usb30_device_controller/prj/src/usb3_0_phy.v)</td>
+<td align = "center">199</td>
+<td align = "center">-</td>
+<td align = "center">473</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--usb30_device_controller_top_inst
+ (E:/WORK/usb30_device_controller/prj/src/top.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3p
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v)</td>
+<td align = "center">257</td>
+<td align = "center">20</td>
+<td align = "center">586</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3rds
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_pipe.v)</td>
+<td align = "center">326</td>
+<td align = "center">3</td>
+<td align = "center">502</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3srx
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_descramble.v)</td>
+<td align = "center">48</td>
+<td align = "center">-</td>
+<td align = "center">56</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3ss
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_pipe.v)</td>
+<td align = "center">198</td>
+<td align = "center">21</td>
+<td align = "center">155</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3srx
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_scramble.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">56</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3lt
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v)</td>
+<td align = "center">197</td>
+<td align = "center">50</td>
+<td align = "center">829</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3l
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v)</td>
+<td align = "center">1120</td>
+<td align = "center">45</td>
+<td align = "center">1784</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--usb3_TXLgood_cache
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v)</td>
+<td align = "center">34</td>
+<td align = "center">2</td>
+<td align = "center">27</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--usb3_TXLcrd_cache
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v)</td>
+<td align = "center">34</td>
+<td align = "center">2</td>
+<td align = "center">27</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--usb3_TXLup_cache
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v)</td>
+<td align = "center">16</td>
+<td align = "center">2</td>
+<td align = "center">19</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--usb3_TXLau_cache
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v)</td>
+<td align = "center">16</td>
+<td align = "center">2</td>
+<td align = "center">19</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3chptx
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">89</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3cdptx32
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v)</td>
+<td align = "center">32</td>
+<td align = "center">-</td>
+<td align = "center">201</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3chprx
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">103</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3cdprx32
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_link.v)</td>
+<td align = "center">64</td>
+<td align = "center">-</td>
+<td align = "center">190</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3r
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb30_device_controller_top.v)</td>
+<td align = "center">146</td>
+<td align = "center">10</td>
+<td align = "center">238</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3ep0
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_protocol.v)</td>
+<td align = "center">126</td>
+<td align = "center">-</td>
+<td align = "center">70</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iu3ep0i
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep0.v)</td>
+<td align = "center">81</td>
+<td align = "center">-</td>
+<td align = "center">31</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--usb3_ep0_OUT
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep0.v)</td>
+<td align = "center">28</td>
+<td align = "center">-</td>
+<td align = "center">25</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--usb3_ep0_IN
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_ep0.v)</td>
+<td align = "center">46</td>
+<td align = "center">-</td>
+<td align = "center">53</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--usb3_ep1_IN
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_protocol.v)</td>
+<td align = "center">46</td>
+<td align = "center">-</td>
+<td align = "center">53</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--usb3_ep1_OUT
+ (E:/WORK/usb30_device_controller/prj/src/usb30_device_controller/usb3_protocol.v)</td>
+<td align = "center">46</td>
+<td align = "center">-</td>
+<td align = "center">64</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--UserLayer_top_inst
+ (E:/WORK/usb30_device_controller/prj/src/top.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ControlTransfer_inst
+ (E:/WORK/usb30_device_controller/prj/src/usb30_user_layer/UserLayer_top.v)</td>
+<td align = "center">135</td>
+<td align = "center">28</td>
+<td align = "center">243</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Ep1Loopback
+ (E:/WORK/usb30_device_controller/prj/src/usb30_user_layer/UserLayer_top.v)</td>
+<td align = "center">40</td>
+<td align = "center">-</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>
