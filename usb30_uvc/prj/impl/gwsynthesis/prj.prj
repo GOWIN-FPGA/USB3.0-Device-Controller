@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AST-138B" package="FCPBGA676A" speed="1" partNumber="GW5AST-LV138FPG676AES"/>
+    <FileList>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\cam_fifo\cam_fifo.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\ddr3_memory_interface\ddr3_memory_interface.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\ddr_rd_fifo\ddr_rd_fifo.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\ddr_wr_fifo\ddr_wr_fifo.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\gowin_pll\gowin_pll.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\payload_fifo\payload_fifo.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\top.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\USB30_Device_Controller_Top.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb30_device_controller.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_TxHp.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_TxLcmd.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_const.vh" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_crc.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_descramble.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_ep.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_ep0.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_ep0in_ram.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_lfsr.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_link.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_ltssm_device.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_macro_define.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_pipe.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_protocol.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_device_controller\usb3_scramble.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_user_layer\ControlTransfer.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_user_layer\DataTransfer.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_user_layer\PixelGen.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_user_layer\UVCDefine.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_user_layer\UserEndpt_define.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_user_layer\UserLayer_top.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_user_layer\ddr3_controller.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\usb30_user_layer\usb_descrip.vh" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\yuv_data_fifo\yuv_data_fifo.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\serdes\serdes.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\serdes\usb3_0_phy\usb3_0_phy.v" type="verilog"/>
+        <File path="C:\Users\haogang\Desktop\usb30_uvc\prj\src\serdes\upar_arbiter\upar_arbiter.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\haogang\Desktop\usb30_uvc\prj\impl\gwsynthesis\prj.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="top"/>
+        <Option type="vcc" value="0.9"/>
+        <Option type="vccx" value="1.8"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

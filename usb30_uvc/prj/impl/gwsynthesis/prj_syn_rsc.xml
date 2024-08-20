@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="105" Alu="69" Lut="91" T_Register="13187(105)" T_Alu="830(69)" T_Lut="13595(91)" T_MULTALU27X18="1(0)" T_Bsram="203(0)">
+    <SubModule name="SerDes_Top_inst" T_Register="1480(0)" T_Alu="7(0)" T_Lut="2046(0)">
+        <SubModule name="upar_arbiter_wrap_SerDes_Top_inst" Register="755" Lut="410" T_Register="755(755)" T_Lut="410(410)"/>
+        <SubModule name="USB3_0_PHY_Top_inst" Register="725" Alu="7" Lut="1636" T_Register="725(725)" T_Alu="7(7)" T_Lut="1636(1636)"/>
+    </SubModule>
+    <SubModule name="USB30_Device_Controller_Top_inst" T_Register="3938(0)" T_Alu="181(0)" T_Lut="6021(0)" T_MULTALU27X18="1(0)" T_Bsram="26(0)">
+        <SubModule name="usb30_device_controller_inst" Register="3" Lut="3" T_Register="3938(3)" T_Alu="181(0)" T_Lut="6021(3)" T_MULTALU27X18="1(0)" T_Bsram="26(0)">
+            <SubModule name="iu3p" Register="253" Alu="20" Lut="581" T_Register="841(253)" T_Alu="44(20)" T_Lut="1332(581)">
+                <SubModule name="iu3rds" Register="326" Alu="3" Lut="475" T_Register="374(326)" T_Alu="3(3)" T_Lut="531(475)">
+                    <SubModule name="iu3srx" Register="48" Lut="56" T_Register="48(48)" T_Lut="56(56)"/>
+                </SubModule>
+                <SubModule name="iu3ss" Register="198" Alu="21" Lut="163" T_Register="214(198)" T_Alu="21(21)" T_Lut="220(163)">
+                    <SubModule name="iu3srx" Register="16" Lut="57" T_Register="16(16)" T_Lut="57(57)"/>
+                </SubModule>
+            </SubModule>
+            <SubModule name="iu3lt" Register="232" Alu="50" Lut="978" T_Register="232(232)" T_Alu="50(50)" T_Lut="978(978)"/>
+            <SubModule name="iu3l" Register="1549" Alu="45" Lut="2020" MULTALU27X18="1" Bsram="16" T_Register="2085(1549)" T_Alu="59(45)" T_Lut="2922(2020)" T_MULTALU27X18="1(1)" T_Bsram="16(16)">
+                <SubModule name="usb3_TxHp_inst" Register="250" Alu="2" Lut="123" T_Register="250(250)" T_Alu="2(2)" T_Lut="123(123)"/>
+                <SubModule name="usb3_TXLgood_cache" Register="34" Alu="2" Lut="28" T_Register="34(34)" T_Alu="2(2)" T_Lut="28(28)"/>
+                <SubModule name="usb3_TXLcrd_cache" Register="34" Alu="2" Lut="27" T_Register="34(34)" T_Alu="2(2)" T_Lut="27(27)"/>
+                <SubModule name="usb3_TXLup_cache" Register="16" Alu="2" Lut="19" T_Register="16(16)" T_Alu="2(2)" T_Lut="19(19)"/>
+                <SubModule name="usb3_TXLau_cache" Register="34" Alu="2" Lut="28" T_Register="34(34)" T_Alu="2(2)" T_Lut="28(28)"/>
+                <SubModule name="usb3_TXLgo_cache" Register="4" Lut="4" T_Register="4(4)" T_Lut="4(4)"/>
+                <SubModule name="usb3_TXLpma_cache" Register="16" Alu="2" Lut="19" T_Register="16(16)" T_Alu="2(2)" T_Lut="19(19)"/>
+                <SubModule name="usb3_TXLbad_cache" Register="16" Alu="2" Lut="19" T_Register="16(16)" T_Alu="2(2)" T_Lut="19(19)"/>
+                <SubModule name="usb3_TXLtry_cache" Register="4" Lut="4" T_Register="4(4)" T_Lut="4(4)"/>
+                <SubModule name="iu3chptx" Register="16" Lut="91" T_Register="16(16)" T_Lut="91(91)"/>
+                <SubModule name="iu3cdptx32" Register="32" Lut="242" T_Register="32(32)" T_Lut="242(242)"/>
+                <SubModule name="iu3chprx" Register="16" Lut="101" T_Register="16(16)" T_Lut="101(101)"/>
+                <SubModule name="iu3cdprx32" Register="64" Lut="197" T_Register="64(64)" T_Lut="197(197)"/>
+            </SubModule>
+            <SubModule name="iu3r" Register="197" Alu="20" Lut="230" T_Register="777(197)" T_Alu="28(20)" T_Lut="786(230)" T_Bsram="10(0)">
+                <SubModule name="iu3ep0" Register="147" Lut="120" T_Register="304(147)" T_Lut="225(120)" T_Bsram="2(0)">
+                    <SubModule name="iu3ep0i" Register="96" Lut="37" T_Register="96(96)" T_Lut="37(37)"/>
+                    <SubModule name="usb3_ep0_OUT" Register="31" Lut="34" Bsram="1" T_Register="31(31)" T_Lut="34(34)" T_Bsram="1(1)"/>
+                    <SubModule name="usb3_ep0_IN" Register="30" Lut="34" Bsram="1" T_Register="30(30)" T_Lut="34(34)" T_Bsram="1(1)"/>
+                </SubModule>
+                <SubModule name="usb3_ep2_IN" Register="276" Alu="8" Lut="331" Bsram="8" T_Register="276(276)" T_Alu="8(8)" T_Lut="331(331)" T_Bsram="8(8)"/>
+            </SubModule>
+        </SubModule>
+    </SubModule>
+    <SubModule name="UserLayer_top_inst" T_Register="7664(0)" T_Alu="573(0)" T_Lut="5437(0)" T_Bsram="177(0)">
+        <SubModule name="Gowin_PLL_inst"/>
+        <SubModule name="ControlTransfer_inst" Register="669" Alu="52" Lut="548" Bsram="1" T_Register="669(669)" T_Alu="52(52)" T_Lut="548(548)" T_Bsram="1(1)"/>
+        <SubModule name="DataTransfer_inst" Register="137" Alu="55" Lut="264" T_Register="377(137)" T_Alu="83(55)" T_Lut="478(264)" T_Bsram="64(0)">
+            <SubModule name="payload_fifo_a" Register="120" Alu="14" Lut="107" Bsram="32" T_Register="120(120)" T_Alu="14(14)" T_Lut="107(107)" T_Bsram="32(32)"/>
+            <SubModule name="payload_fifo_b" Register="120" Alu="14" Lut="107" Bsram="32" T_Register="120(120)" T_Alu="14(14)" T_Lut="107(107)" T_Bsram="32(32)"/>
+        </SubModule>
+        <SubModule name="yuv_data_fifo_inst" Register="161" Alu="47" Lut="179" Bsram="64" T_Register="161(161)" T_Alu="47(47)" T_Lut="179(179)" T_Bsram="64(64)"/>
+        <SubModule name="ddr3_controller_inst" Register="497" Alu="64" Lut="497" T_Register="699(497)" T_Alu="122(64)" T_Lut="675(497)" T_Bsram="16(0)">
+            <SubModule name="ddr_wr_fifo_inst" Register="101" Alu="29" Lut="89" Bsram="8" T_Register="101(101)" T_Alu="29(29)" T_Lut="89(89)" T_Bsram="8(8)"/>
+            <SubModule name="ddr_rd_fifo_inst" Register="101" Alu="29" Lut="89" Bsram="8" T_Register="101(101)" T_Alu="29(29)" T_Lut="89(89)" T_Bsram="8(8)"/>
+        </SubModule>
+        <SubModule name="cam_fifo_inst" Register="121" Alu="38" Lut="111" Bsram="8" T_Register="121(121)" T_Alu="38(38)" T_Lut="111(111)" T_Bsram="8(8)"/>
+        <SubModule name="PixelGen_inst" Register="50" Alu="43" Lut="99" T_Register="50(50)" T_Alu="43(43)" T_Lut="99(99)"/>
+        <SubModule name="u_ddr3" Register="5587" Alu="188" Lut="3347" Bsram="24" T_Register="5587(5587)" T_Alu="188(188)" T_Lut="3347(3347)" T_Bsram="24(24)"/>
+    </SubModule>
+</Module>
