@@ -1,0 +1,574 @@
+[
+ {
+  "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/top.v",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/top.v",
+    "InstLine" : 456,
+    "InstName" : "SerDes_Top_inst",
+    "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/serdes.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "SerDes_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/serdes.v",
+      "InstLine" : 520,
+      "InstName" : "upar_arbiter_wrap_SerDes_Top_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/upar_arbiter/upar_arbiter.v",
+      "ModuleLine" : 4701,
+      "ModuleName" : "~upar_arbiter_wrap.SerDes_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/upar_arbiter/upar_arbiter.v",
+        "InstLine" : 4748,
+        "InstName" : "u_upar_arbiter",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/upar_arbiter/upar_arbiter.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~upar_arbiter.SerDes_Top"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/serdes.v",
+      "InstLine" : 544,
+      "InstName" : "USB3_0_PHY_Top_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/usb3_0_phy/usb3_0_phy.v",
+      "ModuleLine" : 7396,
+      "ModuleName" : "USB3_0_PHY_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/usb3_0_phy/usb3_0_phy.v",
+        "InstLine" : 7505,
+        "InstName" : "Inst_usb3_0_phy",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/serdes/usb3_0_phy/usb3_0_phy.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~usb3_0_phy.USB3_0_PHY_Top"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/top.v",
+    "InstLine" : 483,
+    "InstName" : "USB30_Device_Controller_Top_inst",
+    "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/USB30_Device_Controller_Top.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "USB30_Device_Controller_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/USB30_Device_Controller_Top.v",
+      "InstLine" : 352,
+      "InstName" : "usb30_device_controller_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb30_device_controller.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "usb30_device_controller",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb30_device_controller.v",
+        "InstLine" : 544,
+        "InstName" : "iu3p",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_pipe.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "usb3_pipe",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_pipe.v",
+          "InstLine" : 922,
+          "InstName" : "iu3rds",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_descramble.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_descramble",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_descramble.v",
+            "InstLine" : 313,
+            "InstName" : "iu3srx",
+            "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_lfsr.v",
+            "ModuleLine" : 3,
+            "ModuleName" : "usb3_lfsr"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_pipe.v",
+          "InstLine" : 951,
+          "InstName" : "iu3ss",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_scramble.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_scramble",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_scramble.v",
+            "InstLine" : 179,
+            "InstName" : "iu3srx",
+            "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_lfsr.v",
+            "ModuleLine" : 3,
+            "ModuleName" : "usb3_lfsr"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb30_device_controller.v",
+        "InstLine" : 628,
+        "InstName" : "iu3lt",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ltssm_device.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "usb3_ltssm_device"
+       },
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb30_device_controller.v",
+        "InstLine" : 713,
+        "InstName" : "iu3l",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+        "ModuleLine" : 3,
+        "ModuleName" : "usb3_link",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 617,
+          "InstName" : "usb3_TxHp_inst",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxHp.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TxHp"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 805,
+          "InstName" : "usb3_TXLgood_cache",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TXLcmd"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 825,
+          "InstName" : "usb3_TXLcrd_cache",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TXLcmd"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 845,
+          "InstName" : "usb3_TXLup_cache",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TXLcmd"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 864,
+          "InstName" : "usb3_TXLau_cache",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TXLcmd"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 885,
+          "InstName" : "usb3_TXLgo_cache",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TXLcmd"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 904,
+          "InstName" : "usb3_TXLpma_cache",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TXLcmd"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 923,
+          "InstName" : "usb3_TXLbad_cache",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TXLcmd"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 942,
+          "InstName" : "usb3_TXLtry_cache",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_TxLcmd.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_TXLcmd"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 1699,
+          "InstName" : "iu3ccw5",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 6,
+          "ModuleName" : "usb3_crc_cw"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 1709,
+          "InstName" : "iu3ccw4",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 6,
+          "ModuleName" : "usb3_crc_cw"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 1719,
+          "InstName" : "iu3chptx",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 35,
+          "ModuleName" : "usb3_crc_hp"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 1735,
+          "InstName" : "iu3cdptx32",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 169,
+          "ModuleName" : "usb3_crc_dpp32_tx"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 1749,
+          "InstName" : "iu3cdptx24",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 245,
+          "ModuleName" : "usb3_crc_dpp24"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 1761,
+          "InstName" : "iu3cdptx16",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 305,
+          "ModuleName" : "usb3_crc_dpp16"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 1773,
+          "InstName" : "iu3cdptx8",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 364,
+          "ModuleName" : "usb3_crc_dpp8"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 2133,
+          "InstName" : "iu3chprx",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 35,
+          "ModuleName" : "usb3_crc_hp"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 2146,
+          "InstName" : "iu3ccw3",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 6,
+          "ModuleName" : "usb3_crc_cw"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 2156,
+          "InstName" : "iu3cdprx32",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 91,
+          "ModuleName" : "usb3_crc_dpp32_rx"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 2170,
+          "InstName" : "iu3cdprx24",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 245,
+          "ModuleName" : "usb3_crc_dpp24"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 2183,
+          "InstName" : "iu3cdprx16",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 305,
+          "ModuleName" : "usb3_crc_dpp16"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 2196,
+          "InstName" : "iu3cdprx8",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 364,
+          "ModuleName" : "usb3_crc_dpp8"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 2504,
+          "InstName" : "iu3ccw1",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 6,
+          "ModuleName" : "usb3_crc_cw"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_link.v",
+          "InstLine" : 2514,
+          "InstName" : "iu3ccw2",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_crc.v",
+          "ModuleLine" : 6,
+          "ModuleName" : "usb3_crc_cw"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb30_device_controller.v",
+        "InstLine" : 835,
+        "InstName" : "iu3r",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_protocol.v",
+        "ModuleLine" : 4,
+        "ModuleName" : "usb3_protocol",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_protocol.v",
+          "InstLine" : 1914,
+          "InstName" : "iu3ep0",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep0.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_ep0",
+          "SubInsts" : [
+           {
+            "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep0.v",
+            "InstLine" : 190,
+            "InstName" : "iu3ep0i",
+            "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep0in_ram.v",
+            "ModuleLine" : 3,
+            "ModuleName" : "usb3_ep0in_ram"
+           },
+           {
+            "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep0.v",
+            "InstLine" : 207,
+            "InstName" : "usb3_ep0_OUT",
+            "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep.v",
+            "ModuleLine" : 3,
+            "ModuleName" : "usb3_ep"
+           },
+           {
+            "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep0.v",
+            "InstLine" : 500,
+            "InstName" : "usb3_ep0_IN",
+            "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep.v",
+            "ModuleLine" : 3,
+            "ModuleName" : "usb3_ep"
+           }
+          ]
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_protocol.v",
+          "InstLine" : 1984,
+          "InstName" : "usb3_ep1_IN",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_ep"
+         },
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_protocol.v",
+          "InstLine" : 2016,
+          "InstName" : "usb3_ep2_IN",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_device_controller/usb3_ep.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "usb3_ep"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/top.v",
+    "InstLine" : 811,
+    "InstName" : "UserLayer_top_inst",
+    "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "UserLayer_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 354,
+      "InstName" : "Gowin_PLL_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/gowin_pll/gowin_pll.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "Gowin_PLL"
+     },
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 368,
+      "InstName" : "ControlTransfer_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/ControlTransfer.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "ControlTransfer"
+     },
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 405,
+      "InstName" : "DataTransfer_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/DataTransfer.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "DataTransfer",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/DataTransfer.v",
+        "InstLine" : 459,
+        "InstName" : "payload_fifo_a",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/payload_fifo/payload_fifo.v",
+        "ModuleLine" : 1193,
+        "ModuleName" : "payload_fifo",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/payload_fifo/payload_fifo.v",
+          "InstLine" : 1214,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/payload_fifo/payload_fifo.v",
+          "ModuleLine" : 13,
+          "ModuleName" : "~fifo.payload_fifo"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/DataTransfer.v",
+        "InstLine" : 470,
+        "InstName" : "payload_fifo_b",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/payload_fifo/payload_fifo.v",
+        "ModuleLine" : 1193,
+        "ModuleName" : "payload_fifo",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/payload_fifo/payload_fifo.v",
+          "InstLine" : 1214,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/payload_fifo/payload_fifo.v",
+          "ModuleLine" : 13,
+          "ModuleName" : "~fifo.payload_fifo"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 450,
+      "InstName" : "yuv_data_fifo_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/yuv_data_fifo/yuv_data_fifo.v",
+      "ModuleLine" : 2177,
+      "ModuleName" : "yuv_data_fifo",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/yuv_data_fifo/yuv_data_fifo.v",
+        "InstLine" : 2206,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/yuv_data_fifo/yuv_data_fifo.v",
+        "ModuleLine" : 13,
+        "ModuleName" : "~fifo.yuv_data_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 477,
+      "InstName" : "ddr3_controller_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/ddr3_controller.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "ddr3_controller",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/ddr3_controller.v",
+        "InstLine" : 227,
+        "InstName" : "ddr_wr_fifo_inst",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr_wr_fifo/ddr_wr_fifo.v",
+        "ModuleLine" : 798,
+        "ModuleName" : "ddr_wr_fifo",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr_wr_fifo/ddr_wr_fifo.v",
+          "InstLine" : 825,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr_wr_fifo/ddr_wr_fifo.v",
+          "ModuleLine" : 13,
+          "ModuleName" : "~fifo.ddr_wr_fifo"
+         }
+        ]
+       },
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/ddr3_controller.v",
+        "InstLine" : 414,
+        "InstName" : "ddr_rd_fifo_inst",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr_rd_fifo/ddr_rd_fifo.v",
+        "ModuleLine" : 798,
+        "ModuleName" : "ddr_rd_fifo",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr_rd_fifo/ddr_rd_fifo.v",
+          "InstLine" : 825,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr_rd_fifo/ddr_rd_fifo.v",
+          "ModuleLine" : 13,
+          "ModuleName" : "~fifo.ddr_rd_fifo"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 513,
+      "InstName" : "cam_fifo_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/cam_fifo/cam_fifo.v",
+      "ModuleLine" : 1001,
+      "ModuleName" : "cam_fifo",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/cam_fifo/cam_fifo.v",
+        "InstLine" : 1028,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/cam_fifo/cam_fifo.v",
+        "ModuleLine" : 13,
+        "ModuleName" : "~fifo.cam_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 529,
+      "InstName" : "PixelGen_inst",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/PixelGen.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "PixelGen"
+     },
+     {
+      "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/usb30_user_layer/UserLayer_top.v",
+      "InstLine" : 547,
+      "InstName" : "u_ddr3",
+      "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr3_memory_interface/ddr3_memory_interface.v",
+      "ModuleLine" : 31136,
+      "ModuleName" : "DDR3_Memory_Interface_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr3_memory_interface/ddr3_memory_interface.v",
+        "InstLine" : 31221,
+        "InstName" : "gw3_top",
+        "ModuleFile" : "C:/Users/haogang/Desktop/usb30_uvc/prj/src/ddr3_memory_interface/ddr3_memory_interface.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~GW_DDR3_PHY_MC.DDR3_Memory_Interface_Top"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
