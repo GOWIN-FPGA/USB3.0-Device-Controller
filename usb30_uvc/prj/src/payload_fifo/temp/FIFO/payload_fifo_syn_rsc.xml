@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="payload_fifo" Register="120" Alu="14" Lut="107" Bsram="32" T_Register="120(120)" T_Alu="14(14)" T_Lut="107(107)" T_Bsram="32(32)"/>

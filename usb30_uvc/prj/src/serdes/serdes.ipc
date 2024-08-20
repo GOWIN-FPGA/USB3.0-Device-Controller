@@ -1,0 +1,26 @@
+[General]
+ipc_version=4
+target_device=gw5ast138b-002
+type=Serdes
+version=1.2
+
+[Config]
+LANG=0
+Synthesis_tool=GowinSynthesis
+file=serdes
+module=SerDes_Top
+
+[USB%203.0%20PHY%3Ausb3_0_phy%3AUSB3_0_PHY_Top]
+ChannelSel=Q1 Lane1
+LANG=0
+Line_Rate=5
+Loopback_Mode=OFF
+PLL_Selection=QPLL1
+Reference_CLK_Frequency=100.000
+Reference_CLK_Source=Q1 REFCLK1
+Synthesis_tool=GowinSynthesis
+file=usb3_0_phy
+module=USB3_0_PHY_Top
+target_device=gw5ast138b-002
+type=usb3_0_phy
+version=1.0
